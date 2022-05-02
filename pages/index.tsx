@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gId}}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${gId}`}
       />
 
       <Script id="google-analytics" strategy="afterInteractive">
