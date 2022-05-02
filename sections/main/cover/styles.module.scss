@@ -1,0 +1,33 @@
+@import '/styles/variables.scss';
+
+.topNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topContent {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.topContainerText{
+  margin: auto;
+  order: 0;
+}
+
+.topImageContainer {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  order: 1;
+}
+
+.topImage {
+  border-radius: $br-radius;
+  border: 5px solid white;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+}
