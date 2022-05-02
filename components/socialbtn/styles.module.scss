@@ -1,0 +1,25 @@
+@import '/styles/variables.scss';
+
+.buttonSlide {  
+  padding: 0.8em 1.8em;
+  border: 2px solid $title-color;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 100;
+  font-family: inherit;
+  color: $title-color;
+  margin-right: 25px;
+  border-radius: $br-radius;
+
+  &:hover {
+    background-color: $title-color;
+    color: #000000;
+  }
+
+}
+
