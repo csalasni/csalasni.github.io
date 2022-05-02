@@ -9,6 +9,12 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
+        
+      - name: 'Create env file'
+        run: |
+          touch .env.local
+          echo NEXT_PUBLIC_ANALYTICS_ID=${{ secrets.NEXT_PUBLIC_ANALYTICS_ID }} >> .env.local
+          cat .env.local
 
       - name: Install and Build
         run: |
