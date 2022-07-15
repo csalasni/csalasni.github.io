@@ -18,8 +18,10 @@ const Cover = () => {
     <div className="container">
       <div className={styles.topContent}>
         <div className={styles.topContainerText}>
+          <p className='intro'> {texts.introduction} </p>
           <h1> {texts.title} </h1>
-          <p className="formattedText">{texts.description}</p>
+          <h2> {texts.subtitle} </h2>
+          <p>{texts.description}</p>
 
           <div className={styles.buttonContainer}>
             <SocialBtn {...attr.linkedin} />

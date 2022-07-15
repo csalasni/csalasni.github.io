@@ -13,7 +13,21 @@
 
 .topContainerText{
   margin: auto;
-  order: 0;
+
+  .intro {
+    color: $title-color;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #ffffffce;
+    margin-bottom: 0.1em;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: $font-color;
+  }
 }
 
 .topImageContainer {
