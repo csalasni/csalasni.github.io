@@ -6,7 +6,7 @@ const ProjectList: ICard[] = [
     description:
       'Project for style a fantastic Pokémon Trainer Card, include your Pokémon Team and Download it using React and Semantic-UI.',
     image: '/pkmn.png',
-    github: 'https://github.com/josesalasni/trainercard',
+    github: 'https://github.com/salascarlosni/trainercard',
     demo: 'https://salascarlos.com/trainercard/',
   },
   {
@@ -14,7 +14,7 @@ const ProjectList: ICard[] = [
     description:
       'Project to listen and view the lyrics of the songs of the Griteria in Nicaragua to Virgen María, using Flutter and SQLite.',
     image: '/griteria.png',
-    github: 'https://github.com/josesalasni/Griteria-Nicaragua-Flutter',
+    github: 'https://github.com/salascarlosni/Griteria-Nicaragua-Flutter',
     demo: undefined,
   },
   {
@@ -30,7 +30,7 @@ const ProjectList: ICard[] = [
     description:
       'Project to randomize a Build for a champion using the Riot Games Public API and Kotlin.',
     image: '/lolbuild.png',
-    github: 'https://github.com/josesalasni/LolRandomBuild',
+    github: 'https://github.com/salascarlosni/LolRandomBuild',
     demo: undefined,
   },
 ]

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://josesalasni.github.io",
+  "homepage": "https://salascarlosni.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

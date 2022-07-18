@@ -5,11 +5,11 @@ import texts from 'content/texts'
 const Cover = () => {
   const attr = {
     linkedin: {
-      url: 'https://www.linkedin.com/in/josesalasni/',
+      url: 'https://www.linkedin.com/in/salascarlosni/',
       title: 'LinkedIn',
     },
     github: {
-      url: 'https://github.com/josesalasni',
+      url: 'https://github.com/salascarlosni',
       title: 'Github',
     },
   }
