@@ -16,7 +16,7 @@ const Card = ({ title, description, image, github, demo }: ICard) => {
         <img alt={`Picture of the ${title} `} src={image} />
       </div>
 
-      <h3>{title}</h3>
+      <h3 className={Styles.title}>{title}</h3>
       <p>{description}</p>
       <div className={Styles.btnSection}>
         <a target="_blank" rel="noreferrer" href={github}>

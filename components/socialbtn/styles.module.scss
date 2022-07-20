@@ -2,7 +2,7 @@
 
 .buttonSlide {  
   padding: 0.8em 1.8em;
-  border: 2px solid $title-color;
+  border: 2px solid $link-color;
   position: relative;
   overflow: hidden;
   background-color: transparent;
@@ -12,12 +12,12 @@
   transition: .3s;
   z-index: 100;
   font-family: inherit;
-  color: $title-color;
+  color: $link-color;
   margin-right: 25px;
   border-radius: $br-radius;
 
   &:hover {
-    background-color: $title-color;
+    background-color: $link-color;
     color: #000000;
   }
 

@@ -5,7 +5,6 @@ const Main = () => {
   return (
     <main>
       <Cover />
-      <Projects />
     </main>
   )
 }
