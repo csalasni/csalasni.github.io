@@ -1,3 +1,4 @@
+import Transitions from 'components/transition'
 import { AnimatePresence } from 'framer-motion'
 import React from 'react'
 import Navbar from './navbar'
@@ -7,15 +8,10 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-  const motionAttr = {
-    exitBeforeEnter: true,
-    initial: true,
-  }
-
   return (
     <>
       <Navbar />
-      <AnimatePresence {...motionAttr}>{children}</AnimatePresence>
+      {children}
     </>
   )
 }

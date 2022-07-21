@@ -1,10 +1,11 @@
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 interface TransitionsProps {
   children: React.ReactNode
+  path: string
 }
 
-const Transitions = ({ children }: TransitionsProps) => {
+const Transitions = ({ children, path }: TransitionsProps) => {
   const animationConfiguration = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
@@ -16,8 +17,9 @@ const Transitions = ({ children }: TransitionsProps) => {
       variants={animationConfiguration}
       initial="initial"
       animate="animate"
+      key={path}
       exit="exit"
-      transition={{ duration: 0.2 }}
+      transition={{ ease: 'backInOut', duration: 0.8 }}
     >
       {children}
     </motion.div>

@@ -13,15 +13,13 @@ interface PostLayoutProps {
 const PostLayout = ({ children, meta }: PostLayoutProps) => {
   return (
     <div className="container">
-      <Transitions>
-        <div className={Styles.blogs}>
-          <div className={Styles.post}>
-            <h1> {meta.title} </h1>
+      <div className={Styles.blogs}>
+        <div className={Styles.post}>
+          <h1> {meta.title} </h1>
 
-            {children}
-          </div>
+          {children}
         </div>
-      </Transitions>
+      </div>
     </div>
   )
 }

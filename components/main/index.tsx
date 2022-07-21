@@ -4,10 +4,10 @@ import Projects from './projects'
 
 const Main = () => {
   return (
-    <Transitions>
+    <>
       <Cover />
       <Projects />
-    </Transitions>
+    </>
   )
 }
 

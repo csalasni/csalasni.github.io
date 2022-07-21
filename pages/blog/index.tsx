@@ -3,11 +3,7 @@ import Transitions from 'components/transition'
 import { getPosts } from 'utils/getBlogs'
 
 const Blogs = ({ posts }: any) => {
-  return (
-    <Transitions>
-      <ListBlogsLayout posts={posts} />
-    </Transitions>
-  )
+  return <ListBlogsLayout posts={posts} />
 }
 
 export async function getStaticProps() {
