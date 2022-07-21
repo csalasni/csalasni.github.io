@@ -1,6 +1,6 @@
 import SocialBtn from 'components/socialbtn'
 import styles from './styles.module.scss'
-import texts from 'content/texts'
+import texts from 'utils/texts'
 
 const Cover = () => {
   const attr = {
@@ -18,7 +18,7 @@ const Cover = () => {
     <div className="container">
       <div className={styles.topContent}>
         <div className={styles.topContainerText}>
-          <p className='intro'> {texts.introduction} </p>
+          <p className="intro"> {texts.introduction} </p>
           <h1> {texts.title} </h1>
           <h2> {texts.subtitle} </h2>
           <p>{texts.description}</p>

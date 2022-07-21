@@ -19,9 +19,11 @@ const Card = ({ title, description, image, github, demo }: ICard) => {
       <h3 className={Styles.title}>{title}</h3>
       <p>{description}</p>
       <div className={Styles.btnSection}>
-        <a target="_blank" rel="noreferrer" href={github}>
-          Github
-        </a>
+        {github && (
+          <a target="_blank" rel="noreferrer" href={github}>
+            Github
+          </a>
+        )}
         {demo && (
           <a target="_blank" rel="noreferrer" href={demo}>
             Demo

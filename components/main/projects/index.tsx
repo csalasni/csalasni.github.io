@@ -1,5 +1,5 @@
 import Card from 'components/card'
-import Texts from 'content/texts'
+import Texts from 'utils/texts'
 import ProjectList from './list'
 import Styles from './styles.module.scss'
 

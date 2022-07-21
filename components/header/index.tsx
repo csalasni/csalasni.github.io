@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Texts from 'content/texts'
+import Texts from 'utils/texts'
 
 const Header = () => {
   return (

@@ -1,0 +1,15 @@
+@import '/styles/variables.scss';
+
+.blogs {
+  min-height: 55em;
+}
+
+.post {
+  background-color: $card-bg-color;
+  border-radius: $br-radius;
+  padding: 4em;
+
+  h1 {
+    color: #ffffff;
+  }
+}
