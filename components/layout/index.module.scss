@@ -1,5 +1,6 @@
+import Transitions from 'components/transition'
+import { AnimatePresence } from 'framer-motion'
 import React from 'react'
-import Footer from './footer'
 import Navbar from './navbar'
 
 interface LayoutProps {
@@ -11,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <Navbar />
       {children}
-      <Footer />
+      <div> Made by ❤️ using Next.js</div>
     </>
   )
 }
