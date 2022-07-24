@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Texts from 'utils/texts'
 import Styles from './styles.module.scss'
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
         <img alt="github-logo" src="/github.svg" width={40} />
       </a>
 
-      <p> Made by ❤️ using Next.JS</p>
+      <p> {Texts.footer}</p>
     </div>
   )
 }
