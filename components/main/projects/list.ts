@@ -20,7 +20,7 @@ const ProjectList: ICard[] = [
   {
     title: 'Variedades Mejia',
     description:
-      'Inventory control system developed to the SME Variedades Mejía, developed using C# WPF.',
+      'Inventory control system developed to the SME Variedades Mejía, developed using C# WPF and Entity Framework with SQL Server.',
     image: '/mejia.png',
     github: 'https://github.com/tuturulab/VariedadesMejia',
     demo: undefined,
@@ -31,6 +31,13 @@ const ProjectList: ICard[] = [
       'Android Project to randomize the item Build for a selected champing, developed using the Riot Games Public API and Kotlin.',
     image: '/lolbuild.png',
     github: 'https://github.com/salascarlosni/LolRandomBuild',
+    demo: undefined,
+  },
+  {
+    title: 'ERP System',
+    description:
+      'ERP Project to manage day-to-day business activities such as accounting, sells, project management, etc developed using ASP.NET Core and React.JS',
+    image: '/erp.png',
     demo: undefined,
   },
 ]
