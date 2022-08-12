@@ -7,13 +7,18 @@ export interface ICard {
   image: string
   github?: string
   demo?: string
+  cover?: boolean
 }
 
-const Card = ({ title, description, image, github, demo }: ICard) => {
+const Card = ({ title, description, image, github, demo, cover }: ICard) => {
   return (
     <div className={Styles.cardContainer}>
       <div className={Styles.cardImgContainer}>
-        <img alt={`Picture of the ${title} `} src={image} />
+        <img
+          className={cover ? Styles.imgCover : Styles.img}
+          alt={`Picture of the ${title} `}
+          src={image}
+        />
       </div>
 
       <h3 className={Styles.title}>{title}</h3>

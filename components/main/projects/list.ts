@@ -32,12 +32,20 @@ const ProjectList: ICard[] = [
     image: '/lolbuild.png',
     github: 'https://github.com/salascarlosni/LolRandomBuild',
     demo: undefined,
+    cover: true,
   },
   {
     title: 'ERP System',
     description:
       'ERP Project to manage day-to-day business activities such as accounting, sells, project management, etc developed using ASP.NET Core and React.JS',
     image: '/erp.png',
+    demo: undefined,
+  },
+  {
+    title: 'Judivi',
+    description:
+      'Web Project to review and research about the laws of the political constitution of Nicaragua, developed using ASP.NET MVC',
+    image: '/judivi.png',
     demo: undefined,
   },
 ]
