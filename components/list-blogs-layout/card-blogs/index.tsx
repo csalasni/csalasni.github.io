@@ -21,7 +21,7 @@ const CardPosts = ({ post, link }: PostsProps) => {
 
       <div className={Styles.btnSection}>
         <Link href={`/blog/${link}`}>
-          <a> Read full article </a>
+          <a> Read full article ... </a>
         </Link>
       </div>
     </div>

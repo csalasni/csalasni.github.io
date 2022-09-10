@@ -17,7 +17,7 @@ const PostLayout = ({ children, meta }: PostLayoutProps) => {
         <div className={Styles.post}>
           <h1> {meta.title} </h1>
 
-          {children}
+          <div className={Styles.containerBlog}>{children}</div>
         </div>
       </div>
     </div>
