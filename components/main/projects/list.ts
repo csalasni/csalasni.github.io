@@ -39,6 +39,7 @@ const ProjectList: ICard[] = [
     description:
       'ERP Project to manage day-to-day business activities such as accounting, sells, project management, etc developed using ASP.NET Core and React.JS',
     image: '/erp.png',
+    github: 'https://github.com/tuturulab/erpc-sys-backend.git',
     demo: undefined,
   },
   {
