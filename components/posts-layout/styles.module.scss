@@ -1,7 +1,7 @@
 @import '/styles/variables.scss';
 
 .post {
-  padding: 4em;
+  padding: 4em 1em;
 
   h1 {
     color: #ffffff;
@@ -21,7 +21,7 @@
 .containerBlog {
   img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: contain;
     border-radius: 10px;
   }
