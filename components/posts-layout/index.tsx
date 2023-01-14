@@ -1,4 +1,5 @@
-import Transitions from 'components/transition'
+import Head from 'next/head'
+import Texts from 'utils/texts'
 import Styles from './styles.module.scss'
 
 interface PostMeta {
@@ -12,15 +13,20 @@ interface PostLayoutProps {
 
 const PostLayout = ({ children, meta }: PostLayoutProps) => {
   return (
-    <div className="container">
-      <div className={Styles.blogs}>
-        <div className={Styles.post}>
-          <h1> {meta.title} </h1>
+    <>
+      <Head>
+        <title>{meta.title}</title>
+      </Head>
+      <div className="container">
+        <div className={Styles.blogs}>
+          <div className={Styles.post}>
+            <h1> {meta.title} </h1>
 
-          <div className={Styles.containerBlog}>{children}</div>
+            <div className={Styles.containerBlog}>{children}</div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

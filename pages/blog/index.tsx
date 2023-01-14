@@ -1,9 +1,17 @@
 import ListBlogsLayout from 'components/list-blogs-layout'
-import Transitions from 'components/transition'
+import Head from 'next/head'
 import { getPosts } from 'utils/getBlogs'
 
 const Blogs = ({ posts }: any) => {
-  return <ListBlogsLayout posts={posts} />
+  return (
+    <>
+      <Head>
+        <title>Blog</title>
+      </Head>
+
+      <ListBlogsLayout posts={posts} />
+    </>
+  )
 }
 
 export async function getStaticProps() {
