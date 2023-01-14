@@ -15,7 +15,9 @@ const PostLayout = ({ children, meta }: PostLayoutProps) => {
   return (
     <>
       <Head>
-        <title>{meta.title}</title>
+        <title>
+          {meta.title} - {Texts.title}
+        </title>
       </Head>
       <div className="container">
         <div className={Styles.blogs}>

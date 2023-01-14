@@ -1,12 +1,13 @@
 import ListBlogsLayout from 'components/list-blogs-layout'
 import Head from 'next/head'
 import { getPosts } from 'utils/getBlogs'
+import Texts from 'utils/texts'
 
 const Blogs = ({ posts }: any) => {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Blog - {Texts.title}</title>
       </Head>
 
       <ListBlogsLayout posts={posts} />
