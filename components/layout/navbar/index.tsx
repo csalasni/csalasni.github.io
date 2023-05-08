@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Styles from './styles.module.scss'
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className={Styles.navbar}>
       <ul className={Styles.logo}>
@@ -12,17 +12,6 @@ const Navbar = () => {
           </a>
         </Link>
       </ul>
-
-      <ul className={Styles.links}>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/blog">
-          <a>Blog</a>
-        </Link>
-      </ul>
     </div>
   )
 }
-
-export default Navbar

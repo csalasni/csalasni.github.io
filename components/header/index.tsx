@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Texts from 'utils/texts'
+import { Texts } from 'utils/texts'
 
-const Header = () => {
+export const Header = () => {
   return (
     <Head>
       <title>{Texts.title}</title>
@@ -11,5 +11,3 @@ const Header = () => {
     </Head>
   )
 }
-
-export default Header

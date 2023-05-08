@@ -1,9 +1,9 @@
-import Card from 'components/card'
-import Texts from 'utils/texts'
-import ProjectList from './list'
+import { Card } from 'components/card'
+import { Texts } from 'utils/texts'
+import { ProjectList } from './list'
 import Styles from './styles.module.scss'
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <div className="container">
       <h2 className={Styles.title}> ✨ {Texts.projects}</h2>
@@ -15,5 +15,3 @@ const Projects = () => {
     </div>
   )
 }
-
-export default Projects

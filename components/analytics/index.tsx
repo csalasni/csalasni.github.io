@@ -1,6 +1,6 @@
 import Script from 'next/script'
 
-const Analytics = () => {
+export const Analytics = () => {
   const gId = process.env.NEXT_PUBLIC_ANALYTICS_ID
 
   return (
@@ -22,5 +22,3 @@ const Analytics = () => {
     </>
   )
 }
-
-export default Analytics

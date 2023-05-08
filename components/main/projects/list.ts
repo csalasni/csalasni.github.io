@@ -1,6 +1,6 @@
 import { ICard } from 'components/card'
 
-const ProjectList: ICard[] = [
+export const ProjectList: ICard[] = [
   {
     title: 'PKMN Trainer Card',
     description:
@@ -50,5 +50,3 @@ const ProjectList: ICard[] = [
     demo: undefined,
   },
 ]
-
-export default ProjectList

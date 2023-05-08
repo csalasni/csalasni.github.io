@@ -8,24 +8,6 @@
   z-index: 1000;
 }
 
-.links {
-  margin: 0;
-  padding: 1em;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  a {
-    color: $link-color;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-}
-
 .logo {
   margin: 0;
   padding: 1em;

@@ -1,8 +1,8 @@
-import SocialBtn from 'components/socialbtn'
+import { SocialBtn } from 'components/socialbtn'
 import styles from './styles.module.scss'
-import texts from 'utils/texts'
+import { Texts } from 'utils/texts'
 
-const Cover = () => {
+export const Cover = () => {
   const attr = {
     linkedin: {
       url: 'https://www.linkedin.com/in/salascarlosni/',
@@ -18,10 +18,10 @@ const Cover = () => {
     <div className="container">
       <div className={styles.topContent}>
         <div className={styles.topContainerText}>
-          <p className="intro"> {texts.introduction} </p>
-          <h1> {texts.title} </h1>
-          <h2> {texts.subtitle} </h2>
-          <p>{texts.description}</p>
+          <p className="intro"> {Texts.introduction} </p>
+          <h1> {Texts.title} </h1>
+          <h2> {Texts.subtitle} </h2>
+          <p>{Texts.description}</p>
 
           <div className={styles.buttonContainer}>
             <SocialBtn {...attr.linkedin} />
@@ -33,5 +33,3 @@ const Cover = () => {
     </div>
   )
 }
-
-export default Cover

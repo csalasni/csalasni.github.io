@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import Texts from 'utils/texts'
+import { Texts } from 'utils/texts'
 import Styles from './styles.module.scss'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className={Styles.footer}>
       <a
@@ -25,5 +25,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer

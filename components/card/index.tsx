@@ -10,7 +10,14 @@ export interface ICard {
   cover?: boolean
 }
 
-const Card = ({ title, description, image, github, demo, cover }: ICard) => {
+export const Card = ({
+  title,
+  description,
+  image,
+  github,
+  demo,
+  cover,
+}: ICard) => {
   return (
     <div className={Styles.cardContainer}>
       <div className={Styles.cardImgContainer}>
@@ -38,5 +45,3 @@ const Card = ({ title, description, image, github, demo, cover }: ICard) => {
     </div>
   )
 }
-
-export default Card

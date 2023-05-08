@@ -1,8 +1,7 @@
-import Transitions from 'components/transition'
-import Cover from './cover'
-import Projects from './projects'
+import { Cover } from './cover'
+import { Projects } from './projects'
 
-const Main = () => {
+export const Main = () => {
   return (
     <>
       <Cover />
@@ -10,5 +9,3 @@ const Main = () => {
     </>
   )
 }
-
-export default Main

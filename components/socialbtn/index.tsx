@@ -5,7 +5,7 @@ export interface SocialBtnProps {
   url: string
 }
 
-const SocialBtn = ({ title, url }: SocialBtnProps) => {
+export const SocialBtn = ({ title, url }: SocialBtnProps) => {
   return (
     <a
       href={url}
@@ -17,5 +17,3 @@ const SocialBtn = ({ title, url }: SocialBtnProps) => {
     </a>
   )
 }
-
-export default SocialBtn
