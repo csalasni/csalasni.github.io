@@ -5,9 +5,15 @@ export interface ICard {
   title: string
   description: string
   image: string
-  github?: string
+  github?: string,
+  techs?: ICardTech[],
   demo?: string
   cover?: boolean
+}
+
+interface ICardTech {
+  key: string,
+  url: string
 }
 
 export const Card = ({
@@ -16,6 +22,7 @@ export const Card = ({
   image,
   github,
   demo,
+  techs,
   cover,
 }: ICard) => {
   return (
@@ -28,19 +35,39 @@ export const Card = ({
         />
       </div>
 
-      <h3 className={Styles.title}>{title}</h3>
-      <p>{description}</p>
-      <div className={Styles.btnSection}>
-        {github && (
-          <a target="_blank" rel="noreferrer" href={github}>
-            Github
-          </a>
-        )}
-        {demo && (
-          <a target="_blank" rel="noreferrer" href={demo}>
-            Demo
-          </a>
-        )}
+      {/* Text Container below the cover image */}
+      <div className={Styles.cardTextContainer}>
+        <p className={Styles.title}>{title}</p>
+        <p className={Styles.cardDescription}>{description}</p>
+
+        {/* List of technologies of each project */}
+        <p className={Styles.subtitle}> Technologies </p>
+
+        <div className={Styles.projectTechs}>
+          {techs?.map(el => <>
+            <img
+              key={el.key}
+              alt={`Picture of the ${el.key} `}
+              src={el.url}
+            />
+          </>)}
+        </div>
+
+        {/* List of eternal urls of each project */}
+        <p className={Styles.subtitle}> More </p>
+
+        <div className={Styles.btnSection}>
+          {github && (
+            <a target="_blank" rel="noreferrer" href={github}>
+              Github
+            </a>
+          )}
+          {demo && (
+            <a target="_blank" rel="noreferrer" href={demo}>
+              Demo
+            </a>
+          )}
+        </div>
       </div>
     </div>
   )
