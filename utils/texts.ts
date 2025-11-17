@@ -1,9 +1,8 @@
 export const Texts = {
+  toolbar: 'Carlos Salas - Full Stack Developer',
   title: 'Carlos Salas',
-  subtitle: `I'm a Full-Stack Developer.`,
-  introduction: 'Hi, my name is',
-  headDescription: `I'm a Full-Stack Developer, I've been working on the design and analysis of Rest / GraphQL Api's, and microservices.`,
-  description: `I've been working on the design and analysis of Rest / GraphQL Api's, and microservices which consume SQL Databases alongside the design of user interfaces using React.Js. `,
+  subtitle: `I'm a Full-Stack Developer,`,
+  description: `I have experience working on the design, analysis, and implementation of Backend Api's, SQL Databases, and the design of user interfaces. I am always eager to learn about emerging technologies, and latest trends in the software industry.`,
   projects: 'Projects',
   techs: 'Technologies',
   footer: 'Made with ❤️ using Next.JS',

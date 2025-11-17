@@ -5,13 +5,14 @@
 }
 
 .topContent {
-  margin: 10em 0em;
+  padding: 8em 0em;
   display: grid;
   text-align: center;
   width: 50%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    padding: 2em 0em;
   }
 }
 

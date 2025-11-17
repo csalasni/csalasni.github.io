@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Main } from 'components/main'
+import { Main } from 'modules/main'
 
 const Home: NextPage = () => <Main />
 

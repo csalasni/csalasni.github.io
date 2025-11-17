@@ -9,15 +9,9 @@ export const Main = () => {
     <div className="container">
       <div className={Styles.topContent}>
         <div className={Styles.topContainerText}>
-          <p className="intro"> {Texts.introduction} </p>
           <h1> {Texts.title} </h1>
           <h2> {Texts.subtitle} </h2>
           <p> {Texts.description} </p>
-
-          <div className={Styles.buttonContainer}>
-            <SocialBtn url='https://www.linkedin.com/in/salascarlosni/' title='LinkedIn' />
-            <SocialBtn url='https://github.com/salascarlosni' title='Github' />
-          </div>
         </div>
       </div>
 

@@ -9,6 +9,10 @@
 }
 
 .logo {
-  margin: 0;
+  margin: 0em;
   padding: 1em;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 }

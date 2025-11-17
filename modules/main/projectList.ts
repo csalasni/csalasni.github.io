@@ -21,7 +21,7 @@ export const ProjectList: ICard[] = [
   {
     title: 'Griteria Nicaragua',
     description:
-      'Project to listen and read the lyrics of the songs dedicated to Virgen María made in Nicaragua',
+      'Application that lets users listen, and read the lyrics of the songs dedicated to Virgen María that are made in Nicaragua.',
     techs: [
       {
         key: 'Flutter-1',
@@ -38,7 +38,7 @@ export const ProjectList: ICard[] = [
   },
   {
     title: 'Variedades Mejia',
-    description: 'Inventory control system for the SME Variedades Mejía to keep track of their customers, products, and sales',
+    description: 'Management System made for the SME Variedades Mejía which helps keep tracking of their customers, inventory, and sales.',
     techs: [
       {
         key: 'CSharp-3',
@@ -54,26 +54,8 @@ export const ProjectList: ICard[] = [
     demo: undefined,
   },
   {
-    title: 'LoL Random Build',
-    description: 'Android Project to randomize the item Build for a selected LoL champion.',
-    techs: [
-      {
-        key: 'Android-4',
-        url: 'https://img.shields.io/badge/Android-%2307405e?style=for-the-badge&logo=android&logoColor=white',
-      },
-      {
-        key: 'Kotlin-4',
-        url: 'https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white'
-      }
-    ],
-    image: '/lolbuild.png',
-    github: 'https://github.com/salascarlosni/LolRandomBuild',
-    demo: undefined,
-    cover: true,
-  },
-  {
     title: 'ERP System',
-    description: 'ERP SaaS Project to manage day-to-day business activities such as accounting, sells, project management',
+    description: 'ERP SaaS solution that helps users to manage day-to-day business activities such as accounting, sells, analytics, etc.',
     image: '/erp.png',
     techs: [
       {
@@ -90,7 +72,7 @@ export const ProjectList: ICard[] = [
   },
   {
     title: 'Judivi',
-    description: 'Web Project to review and research about the laws of the political constitution of Nicaragua',
+    description: 'Web Solution that brings users different features to research about the several laws of the Political Constitution of Nicaragua.',
     techs: [
       {
         key: 'C#-6',

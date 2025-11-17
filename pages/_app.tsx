@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>{Texts.title}</title>
+        <title>{Texts.toolbar}</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content={Texts.headDescription} />
+        <meta name="description" content={Texts.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

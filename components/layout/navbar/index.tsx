@@ -8,7 +8,7 @@ export const Navbar = () => {
       <ul className={Styles.logo}>
         <Link href="/">
           <a>
-            <img alt="logo" src="/logo.svg" height={64} width={64} />
+            <img alt="logo" src="/pixel_logo.png" height={64} width={64} />
           </a>
         </Link>
       </ul>
