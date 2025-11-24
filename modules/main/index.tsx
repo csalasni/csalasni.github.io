@@ -15,6 +15,10 @@ export const Main = () => {
           <h2> {Texts.subtitle} </h2>
           <p> {Texts.description} </p>
         </div>
+
+        <div className={Styles.topContainerImage}>
+          <FlipCard image1='https://images.elotrolado.net/headers/upload/1/1/11e74c_ferocious_news.jpg?1200' image2='https://images.elotrolado.net/headers/upload/7/a/7a76a1_steam-machine_news.jpg?1200'/>
+        </div>
       </div>
 
       {/* Projects */}
