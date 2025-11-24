@@ -5,6 +5,7 @@ import { Analytics } from 'components/analytics'
 import { Texts } from 'utils/texts'
 
 import '../styles/globals.scss'
+import { ThemeProvider } from 'utils/theme-context'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (

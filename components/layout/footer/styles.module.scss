@@ -1,13 +1,21 @@
 .footer{
-    color: #ffffff;
-    text-align: center;
+  text-align: center;
 
-    a {
-        padding: 0.2em;
-    }
+  a {
+      padding: 0.2em;
+  }
 }
 
 .subfooter{
-    padding-top: 1em;
-    padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
+}
+
+.linkLogos{
+  color: black;
+
+  fill: #ff0000;
+  stroke: #0000ff;
+  filter: invert(100%) sepia(100%) hue-rotate(200deg);
 }

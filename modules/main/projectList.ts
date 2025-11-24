@@ -1,6 +1,6 @@
-import { ICard } from 'components/card'
+import { CardProps } from 'components/card'
 
-export const ProjectList: ICard[] = [
+export const ProjectList: CardProps[] = [
   {
     title: 'PKMN Trainer Card',
     description: 'Project for making Pokémon Trainer Cards of your favorite Pokémon and export as PNG',

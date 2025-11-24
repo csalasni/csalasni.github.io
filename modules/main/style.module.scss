@@ -20,18 +20,18 @@
   text-align: left;
 
   .intro {
-    color: $link-color;
+    color: $high-emphasis-color;
   }
 
   h1 {
-    font-size: 3rem;
-    color: #ffffffce;
+    font-size: 3.5rem;
+    color: $high-emphasis-color;
     margin-bottom: 0.1em;
   }
 
   h2 {
     font-size: 2rem;
-    color: $font-color;
+    color: $high-emphasis-color;
   }
 }
 
@@ -54,7 +54,7 @@
 .cardList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 2em;
+  grid-gap: 2.2em;
 
   margin: 3em 0 3em 0;
 }
@@ -62,5 +62,5 @@
 .title {
   font-size: 2rem;
   margin: 0.6em 0 0.6em 0;
-  color: $title-font-color;
+  color: $high-emphasis-color;
 }

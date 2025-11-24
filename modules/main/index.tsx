@@ -1,10 +1,12 @@
-import { SocialBtn } from 'components/socialbtn';
 import { Texts } from 'utils/texts';
 import { ProjectList } from './projectList';
 import { Card } from 'components/card';
+
 import Styles from './style.module.scss';
+import { FlipCard } from 'components/flip-card/flip-card';
 
 export const Main = () => {
+
   return (
     <div className="container">
       <div className={Styles.topContent}>
@@ -16,7 +18,7 @@ export const Main = () => {
       </div>
 
       {/* Projects */}
-      <h2 className={Styles.title}> {Texts.projects} </h2>
+      <p className={Styles.title}> {Texts.projects} </p>
       <div className={Styles.cardList}>
         {ProjectList.map((el) => (
           <Card {...el} key={el.title} />

@@ -1,17 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import Styles from './styles.module.scss'
 
-export interface ICard {
+export interface CardProps {
   title: string
   description: string
   image: string
   github?: string,
-  techs?: ICardTech[],
+  techs?: CardTechProps[],
   demo?: string
   cover?: boolean
 }
 
-interface ICardTech {
+interface CardTechProps {
   key: string,
   url: string
 }
@@ -24,13 +24,13 @@ export const Card = ({
   demo,
   techs,
   cover,
-}: ICard) => {
+}: CardProps) => {
   return (
     <div className={Styles.cardContainer}>
       <div className={Styles.cardImgContainer}>
         <img
           className={cover ? Styles.imgCover : Styles.img}
-          alt={`Picture of the ${title} `}
+          alt={`Picture of the ${title}`}
           src={image}
         />
       </div>

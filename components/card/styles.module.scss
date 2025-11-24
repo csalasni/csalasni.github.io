@@ -5,7 +5,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: all 0.25s;
-  color: $font-color;
   background-color: $card-bg-color;
   position: relative;
 }
@@ -24,11 +23,15 @@
   a {
     font-weight: 500;
     text-decoration: none;
-    color: $title-font-color;
+    color: $high-emphasis-color;
     padding: 8px;
-    background-color: $bg-color;
     border-radius: $br-radius;
     margin-right: 0.5em;
+    transition: color 0.3s ease, color 0.3s ease;
+  }
+
+  a:hover{
+    color: $primary-color;
   }
 }
 
@@ -46,19 +49,21 @@
 .imgCover {
   height: 200px;
   width: 100%;
-  object-fit: cover;
+  object-fit:contain;
 }
 
 .img {
   height: 200px;
   width: 100%;
+  object-fit:cover;
 }
 
 .title {
   font-size: 1.3rem;
-  color: $title-font-color;
+  color: $high-emphasis-color;
+  font-weight: bold;
 }
 
 .subtitle {
-  color: $title-font-color;
+  color: $high-emphasis-color;
 }
