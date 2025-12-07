@@ -3,10 +3,8 @@ import { ProjectList } from './projectList';
 import { Card } from 'components/card';
 
 import Styles from './style.module.scss';
-import { FlipCard } from 'components/flip-card/flip-card';
 
 export const Main = () => {
-
   return (
     <div className="container">
       <div className={Styles.topContent}>
